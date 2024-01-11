@@ -30,7 +30,8 @@ import flet as ft
 
 def main(page):
     page.title = "Card Example"
-    
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.vertical_alignment = ft.MainAxisAlignment.CENTER
     # Create a list to hold the cards
     cards_list = []
 
